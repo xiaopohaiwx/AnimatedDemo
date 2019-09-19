@@ -3,18 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0A00E92CA6730214F9876D /* libPods-TABAnimatedText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 268BB464B391C1FC9101D069 /* libPods-TABAnimatedText.a */; };
 		F4F2F8482318B2FD00AFAAFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F8472318B2FD00AFAAFF /* AppDelegate.m */; };
-		F4F2F84B2318B2FD00AFAAFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F84A2318B2FD00AFAAFF /* ViewController.m */; };
-		F4F2F84E2318B2FD00AFAAFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F2F84C2318B2FD00AFAAFF /* Main.storyboard */; };
 		F4F2F8502318B2FF00AFAAFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F2F84F2318B2FF00AFAAFF /* Assets.xcassets */; };
 		F4F2F8532318B2FF00AFAAFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F2F8512318B2FF00AFAAFF /* LaunchScreen.storyboard */; };
 		F4F2F8562318B2FF00AFAAFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F8552318B2FF00AFAAFF /* main.m */; };
 		F4F2F8602318B2FF00AFAAFF /* TABAnimatedTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F85F2318B2FF00AFAAFF /* TABAnimatedTextTests.m */; };
 		F4F2F86B2318B2FF00AFAAFF /* TABAnimatedTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F86A2318B2FF00AFAAFF /* TABAnimatedTextUITests.m */; };
+		F4F2F87A2318B59D00AFAAFF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F8792318B59D00AFAAFF /* BaseViewController.m */; };
+		F4F2F8822318C17900AFAAFF /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F8812318C17900AFAAFF /* BaseTableViewCell.m */; };
+		F4F2F8902318C21D00AFAAFF /* UITextField+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F8892318C21D00AFAAFF /* UITextField+Category.m */; };
+		F4F2F8912318C21D00AFAAFF /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F88A2318C21D00AFAAFF /* UIButton+Category.m */; };
+		F4F2F8922318C21D00AFAAFF /* UIImageView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F88B2318C21D00AFAAFF /* UIImageView+Category.m */; };
+		F4F2F8932318C21D00AFAAFF /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F88E2318C21D00AFAAFF /* UILabel+Category.m */; };
+		F4F2F8942318C21D00AFAAFF /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F88F2318C21D00AFAAFF /* UIView+Category.m */; };
+		F4F2F8972318C44D00AFAAFF /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F8952318C44C00AFAAFF /* UIColor+HexColor.m */; };
+		F4F2F8A82318F16400AFAAFF /* TableViewAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F8A22318F16400AFAAFF /* TableViewAnimationKit.m */; };
+		F4F2F8A92318F16400AFAAFF /* UITableView+XSAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F8A72318F16400AFAAFF /* UITableView+XSAnimationKit.m */; };
+		F4F2F8AC2318F67500AFAAFF /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F2F8AB2318F67500AFAAFF /* BaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		268BB464B391C1FC9101D069 /* libPods-TABAnimatedText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TABAnimatedText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9D307672BC9B382A9F0049 /* Pods-TABAnimatedText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABAnimatedText.release.xcconfig"; path = "Target Support Files/Pods-TABAnimatedText/Pods-TABAnimatedText.release.xcconfig"; sourceTree = "<group>"; };
+		CC95F2F442A01B4327EDBCF8 /* Pods-TABAnimatedText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABAnimatedText.debug.xcconfig"; path = "Target Support Files/Pods-TABAnimatedText/Pods-TABAnimatedText.debug.xcconfig"; sourceTree = "<group>"; };
 		F4F2F8432318B2FD00AFAAFF /* TABAnimatedText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TABAnimatedText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F2F8462318B2FD00AFAAFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4F2F8472318B2FD00AFAAFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F4F2F8492318B2FD00AFAAFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F4F2F84A2318B2FD00AFAAFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F4F2F84D2318B2FD00AFAAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4F2F84F2318B2FF00AFAAFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4F2F8522318B2FF00AFAAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4F2F8542318B2FF00AFAAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +61,33 @@
 		F4F2F8662318B2FF00AFAAFF /* TABAnimatedTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TABAnimatedTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F2F86A2318B2FF00AFAAFF /* TABAnimatedTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TABAnimatedTextUITests.m; sourceTree = "<group>"; };
 		F4F2F86C2318B2FF00AFAAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F2F8782318B59D00AFAAFF /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F4F2F8792318B59D00AFAAFF /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F4F2F87B2318BB7900AFAAFF /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		F4F2F87D2318BCC400AFAAFF /* TABAnimatedText.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TABAnimatedText.pch; sourceTree = "<group>"; };
+		F4F2F8802318C17900AFAAFF /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		F4F2F8812318C17900AFAAFF /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		F4F2F8852318C21D00AFAAFF /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		F4F2F8862318C21D00AFAAFF /* UITextField+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Category.h"; sourceTree = "<group>"; };
+		F4F2F8872318C21D00AFAAFF /* UIImageView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Category.h"; sourceTree = "<group>"; };
+		F4F2F8882318C21D00AFAAFF /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		F4F2F8892318C21D00AFAAFF /* UITextField+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Category.m"; sourceTree = "<group>"; };
+		F4F2F88A2318C21D00AFAAFF /* UIButton+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
+		F4F2F88B2318C21D00AFAAFF /* UIImageView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Category.m"; sourceTree = "<group>"; };
+		F4F2F88C2318C21D00AFAAFF /* UIButton+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
+		F4F2F88D2318C21D00AFAAFF /* UILabel+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Category.h"; sourceTree = "<group>"; };
+		F4F2F88E2318C21D00AFAAFF /* UILabel+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Category.m"; sourceTree = "<group>"; };
+		F4F2F88F2318C21D00AFAAFF /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		F4F2F8952318C44C00AFAAFF /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		F4F2F8962318C44C00AFAAFF /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		F4F2F8A22318F16400AFAAFF /* TableViewAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewAnimationKit.m; sourceTree = "<group>"; };
+		F4F2F8A32318F16400AFAAFF /* TableViewAnimationKitHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitHeaders.h; sourceTree = "<group>"; };
+		F4F2F8A42318F16400AFAAFF /* UITableView+XSAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+XSAnimationKit.h"; sourceTree = "<group>"; };
+		F4F2F8A52318F16400AFAAFF /* TableViewAnimationKitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitConfig.h; sourceTree = "<group>"; };
+		F4F2F8A62318F16400AFAAFF /* TableViewAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKit.h; sourceTree = "<group>"; };
+		F4F2F8A72318F16400AFAAFF /* UITableView+XSAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XSAnimationKit.m"; sourceTree = "<group>"; };
+		F4F2F8AA2318F67500AFAAFF /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		F4F2F8AB2318F67500AFAAFF /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0A00E92CA6730214F9876D /* libPods-TABAnimatedText.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +116,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87D41F05187C880C71A3064B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC95F2F442A01B4327EDBCF8 /* Pods-TABAnimatedText.debug.xcconfig */,
+				2F9D307672BC9B382A9F0049 /* Pods-TABAnimatedText.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1ABA8D8D2918D25B095FA44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				268BB464B391C1FC9101D069 /* libPods-TABAnimatedText.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4F2F83A2318B2FD00AFAAFF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +140,8 @@
 				F4F2F85E2318B2FF00AFAAFF /* TABAnimatedTextTests */,
 				F4F2F8692318B2FF00AFAAFF /* TABAnimatedTextUITests */,
 				F4F2F8442318B2FD00AFAAFF /* Products */,
+				87D41F05187C880C71A3064B /* Pods */,
+				E1ABA8D8D2918D25B095FA44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +158,17 @@
 		F4F2F8452318B2FD00AFAAFF /* TABAnimatedText */ = {
 			isa = PBXGroup;
 			children = (
+				F4F2F8A12318F16400AFAAFF /* TableViewAnimationKit */,
+				F4F2F8832318C1E700AFAAFF /* Common */,
+				F4F2F87F2318C13900AFAAFF /* View */,
+				F4F2F87E2318C11700AFAAFF /* Controller */,
 				F4F2F8462318B2FD00AFAAFF /* AppDelegate.h */,
 				F4F2F8472318B2FD00AFAAFF /* AppDelegate.m */,
-				F4F2F8492318B2FD00AFAAFF /* ViewController.h */,
-				F4F2F84A2318B2FD00AFAAFF /* ViewController.m */,
-				F4F2F84C2318B2FD00AFAAFF /* Main.storyboard */,
 				F4F2F84F2318B2FF00AFAAFF /* Assets.xcassets */,
 				F4F2F8512318B2FF00AFAAFF /* LaunchScreen.storyboard */,
 				F4F2F8542318B2FF00AFAAFF /* Info.plist */,
 				F4F2F8552318B2FF00AFAAFF /* main.m */,
+				F4F2F87D2318BCC400AFAAFF /* TABAnimatedText.pch */,
 			);
 			path = TABAnimatedText;
 			sourceTree = "<group>";
@@ -132,6 +191,68 @@
 			path = TABAnimatedTextUITests;
 			sourceTree = "<group>";
 		};
+		F4F2F87E2318C11700AFAAFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4F2F8782318B59D00AFAAFF /* BaseViewController.h */,
+				F4F2F8792318B59D00AFAAFF /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4F2F87F2318C13900AFAAFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4F2F8802318C17900AFAAFF /* BaseTableViewCell.h */,
+				F4F2F8812318C17900AFAAFF /* BaseTableViewCell.m */,
+				F4F2F8AA2318F67500AFAAFF /* BaseModel.h */,
+				F4F2F8AB2318F67500AFAAFF /* BaseModel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4F2F8832318C1E700AFAAFF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F4F2F87B2318BB7900AFAAFF /* CommonDefine.h */,
+				F4F2F8842318C20600AFAAFF /* Category */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F4F2F8842318C20600AFAAFF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F4F2F8962318C44C00AFAAFF /* UIColor+HexColor.h */,
+				F4F2F8952318C44C00AFAAFF /* UIColor+HexColor.m */,
+				F4F2F8882318C21D00AFAAFF /* Category.h */,
+				F4F2F88C2318C21D00AFAAFF /* UIButton+Category.h */,
+				F4F2F88A2318C21D00AFAAFF /* UIButton+Category.m */,
+				F4F2F8872318C21D00AFAAFF /* UIImageView+Category.h */,
+				F4F2F88B2318C21D00AFAAFF /* UIImageView+Category.m */,
+				F4F2F88D2318C21D00AFAAFF /* UILabel+Category.h */,
+				F4F2F88E2318C21D00AFAAFF /* UILabel+Category.m */,
+				F4F2F8862318C21D00AFAAFF /* UITextField+Category.h */,
+				F4F2F8892318C21D00AFAAFF /* UITextField+Category.m */,
+				F4F2F8852318C21D00AFAAFF /* UIView+Category.h */,
+				F4F2F88F2318C21D00AFAAFF /* UIView+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F4F2F8A12318F16400AFAAFF /* TableViewAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				F4F2F8A22318F16400AFAAFF /* TableViewAnimationKit.m */,
+				F4F2F8A32318F16400AFAAFF /* TableViewAnimationKitHeaders.h */,
+				F4F2F8A42318F16400AFAAFF /* UITableView+XSAnimationKit.h */,
+				F4F2F8A52318F16400AFAAFF /* TableViewAnimationKitConfig.h */,
+				F4F2F8A62318F16400AFAAFF /* TableViewAnimationKit.h */,
+				F4F2F8A72318F16400AFAAFF /* UITableView+XSAnimationKit.m */,
+			);
+			path = TableViewAnimationKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4F2F86F2318B2FF00AFAAFF /* Build configuration list for PBXNativeTarget "TABAnimatedText" */;
 			buildPhases = (
+				C362F46882CFFAAAACE30CCC /* [CP] Check Pods Manifest.lock */,
 				F4F2F83F2318B2FD00AFAAFF /* Sources */,
 				F4F2F8402318B2FD00AFAAFF /* Frameworks */,
 				F4F2F8412318B2FD00AFAAFF /* Resources */,
+				50361635BEF7B161AD33D14A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +360,6 @@
 			files = (
 				F4F2F8532318B2FF00AFAAFF /* LaunchScreen.storyboard in Resources */,
 				F4F2F8502318B2FF00AFAAFF /* Assets.xcassets in Resources */,
-				F4F2F84E2318B2FD00AFAAFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +379,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50361635BEF7B161AD33D14A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TABAnimatedText/Pods-TABAnimatedText-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TABAnimatedText/Pods-TABAnimatedText-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TABAnimatedText/Pods-TABAnimatedText-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C362F46882CFFAAAACE30CCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TABAnimatedText-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4F2F83F2318B2FD00AFAAFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F2F84B2318B2FD00AFAAFF /* ViewController.m in Sources */,
+				F4F2F8822318C17900AFAAFF /* BaseTableViewCell.m in Sources */,
+				F4F2F8942318C21D00AFAAFF /* UIView+Category.m in Sources */,
+				F4F2F87A2318B59D00AFAAFF /* BaseViewController.m in Sources */,
 				F4F2F8562318B2FF00AFAAFF /* main.m in Sources */,
+				F4F2F8912318C21D00AFAAFF /* UIButton+Category.m in Sources */,
+				F4F2F8932318C21D00AFAAFF /* UILabel+Category.m in Sources */,
+				F4F2F8A92318F16400AFAAFF /* UITableView+XSAnimationKit.m in Sources */,
+				F4F2F8AC2318F67500AFAAFF /* BaseModel.m in Sources */,
+				F4F2F8902318C21D00AFAAFF /* UITextField+Category.m in Sources */,
+				F4F2F8972318C44D00AFAAFF /* UIColor+HexColor.m in Sources */,
+				F4F2F8A82318F16400AFAAFF /* TableViewAnimationKit.m in Sources */,
+				F4F2F8922318C21D00AFAAFF /* UIImageView+Category.m in Sources */,
 				F4F2F8482318B2FD00AFAAFF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +474,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F4F2F84C2318B2FD00AFAAFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4F2F84D2318B2FD00AFAAFF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4F2F8512318B2FF00AFAAFF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,15 +599,18 @@
 		};
 		F4F2F8702318B2FF00AFAAFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC95F2F442A01B4327EDBCF8 /* Pods-TABAnimatedText.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N48WKRV5ZZ;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(SWIFT_MODULE_NAME)/TABAnimatedText.pch";
 				INFOPLIST_FILE = TABAnimatedText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wx.TABAnimatedText;
+				PRODUCT_BUNDLE_IDENTIFIER = wx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,15 +618,18 @@
 		};
 		F4F2F8712318B2FF00AFAAFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9D307672BC9B382A9F0049 /* Pods-TABAnimatedText.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N48WKRV5ZZ;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(SWIFT_MODULE_NAME)/TABAnimatedText.pch";
 				INFOPLIST_FILE = TABAnimatedText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wx.TABAnimatedText;
+				PRODUCT_BUNDLE_IDENTIFIER = wx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +640,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N48WKRV5ZZ;
 				INFOPLIST_FILE = TABAnimatedTextTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -486,6 +659,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N48WKRV5ZZ;
 				INFOPLIST_FILE = TABAnimatedTextTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -503,6 +677,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N48WKRV5ZZ;
 				INFOPLIST_FILE = TABAnimatedTextUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -520,6 +695,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N48WKRV5ZZ;
 				INFOPLIST_FILE = TABAnimatedTextUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseViewController.h"
+#import <TABAnimated.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[BaseViewController alloc] init]];
+    [self.window makeKeyAndVisible];
+    
+    //设置骨架
+    [[TABAnimated sharedAnimated] initWithOnlySkeleton];
+    //open log
+    [TABAnimated sharedAnimated].openLog = YES;
+    [TABAnimated sharedAnimated].openAnimationTag = YES;
+    
     return YES;
 }
 

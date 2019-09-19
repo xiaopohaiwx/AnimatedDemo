@@ -1,0 +1,19 @@
+//
+//  TABAnimatedText.pch
+//  TABAnimatedText
+//
+//  Created by wx on 2019/8/30.
+//  Copyright © 2019年 wx. All rights reserved.
+//
+
+#ifndef TABAnimatedText_pch
+#define TABAnimatedText_pch
+
+#import "CommonDefine.h"
+#import "Category.h"
+#import <Masonry.h>
+#import <TABAnimated.h>
+#import "TableViewAnimationKitHeaders.h"
+#import <MJRefresh.h>
+
+#endif /* TABAnimatedText_pch */

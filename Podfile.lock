@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJRefresh (3.2.0)
+  - TABAnimated (2.1.9)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - MJRefresh (~> 3.2.0)
+  - TABAnimated (~> 2.1.9)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - MJRefresh
+    - TABAnimated
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  TABAnimated: e913a2eb5a1caf3553dcef8e4d9d3f24f0c29b31
+
+PODFILE CHECKSUM: adbe6209abb68731b12f0735f9b7f9bf4ee5b9e7
+
+COCOAPODS: 1.7.5
